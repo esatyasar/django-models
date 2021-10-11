@@ -5,3 +5,5 @@ from django.db.models.fields import CharField
 
 class Product (models.Model):
     name = models.CharField(max_length=50)
+    content = models.TextField(max_length=1000)
+    price = models.FloatField()
